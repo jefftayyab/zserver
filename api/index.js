@@ -24,7 +24,7 @@ mongoose
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors());
-const port = process.env.PORT ||  23
+const port = process.env.PORT ||  19
 // import & pass in route middleware
 import authRoute from "./routes/authRoute.js";
 app.use("/api/v1", authRoute);
